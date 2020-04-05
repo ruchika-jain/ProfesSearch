@@ -1,0 +1,232 @@
+body{
+    top: -14px;
+    left: -15px;
+    width: 100vw;
+    height: 1278px;
+    background: transparent url('../img/92925.png') 0% 0% padding-box;
+    opacity: 1;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.navbar{
+    top: 58px;
+    left: 0px;
+    width: 1920px;
+    height: 85px;
+    background: #3853A4 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 0.73;
+}
+.navbar-logo{
+    top: 21px;
+    left: 143px;
+    width: 164px;
+    height: 200px;
+    /*background: transparent url('../img/Rectangle 601.png') 0% 0% no-repeat padding-box;*/
+    opacity: 1;
+
+}
+.navbar-brand{
+    /*top: 0px;
+    left: 0px;
+    width: 162px;
+    height: 79px;
+    text-align: left;
+    font: regular 59px/79px dana;
+    letter-spacing: 0px;*/
+    color: #29F55D;
+    font-size: 29px;
+}
+.sign-in{
+    border-radius: 20px;
+    background-color: rgb(10, 30, 88);
+    color: white;
+    border: 2px solid rgb(7, 19, 56);
+    margin-top: 9px;
+    padding: 5px;
+    font-size: 18px;
+}
+.navbar-brand:hover{
+    color:#29F55D ;
+}
+.navbar-nav{
+    margin-left: 148px;
+    padding-left: 240px;
+}
+.nav-item > .nav-link{
+    margin: 8px;
+    color: white !important;
+    font-size: 19px;
+}
+.nav-link:hover{
+    text-decoration: bold !important;
+}
+#home{
+    top: 242px;
+    left: 143px;
+    width: 1680px;
+    /*height: 93vh; */
+}
+.box-section{
+    padding: 3em;
+    margin: 2.5em;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 50px 50px 99px #2222220F;
+    border-radius: 30px;
+    opacity: 1;
+    width: 80vw;
+}
+.home-heading1{
+    margin-top: 2.5em;
+    font-weight: bold;
+    margin: 1em;
+}
+.home-heading2{
+    margin: 1em;
+    padding: 0.3em;
+    color: #8D8D8D;
+    font-size: 1.2em;
+}
+.home-heading3{
+    margin: 1rem;
+    padding: 0.1em;
+    letter-spacing: 5.78px;
+    color: #707070;
+    opacity: 0.24;
+    font-size: 4em;
+}
+.home-heading4{
+    color: #707070;
+    margin: 1em;
+    margin-top: 0.6em;
+    font-size: 1.9em;
+}
+.home-register{
+    background: #3853A4 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+    margin: 1em;
+    margin-left: 1.4em;
+    height: 3em;
+    width: 10em;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    border: none;
+}
+.about-heading1{
+    color: #000000;
+    opacity: 0.48;
+    font-weight: bold;
+    font-size: 4em;
+}
+.about-heading2{
+    letter-spacing: 0.08em;
+    color: #707070;
+    opacity: 0.24;
+    font-size: 2.7em;
+}
+.stat-list{
+    list-style: none;
+    display: flex;
+    color: #00000099;
+    padding: 0;
+    margin: 0;
+    /* align-content: center; */
+    justify-content: center;
+}
+.stat-heading1{
+
+}
+.stat-heading2{
+    font-size: 4em;
+    font-weight: bold;
+}
+.stat-list > li{
+    padding: 2em;
+    text-align: center;
+}
+li>i{
+    font-size: 5em;
+    
+}
+.faq-heading{
+    margin: 1em;
+    margin-left: 0;
+    text-decoration: bold;
+}
+.faq-list >li >i{
+    color: #3853A3;
+    width: 1.3em;
+    height: 1em;
+}
+.faq-list{
+    list-style: none;
+    padding-left: 0;
+}
+.faq-list>li{
+    margin: 0.9em;
+}
+.faq-list-point{
+    display: inline-flex;
+    font-size: 1.2em;
+}
+/*Contact section*/
+.contact_head{
+    text-align: center;
+    justify-items: center;
+    font: Bold 40px/108px Product Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+div.margin_div {
+    margin: 2rem;
+}
+::placeholder{
+    top: 127px;
+    left: 635px;
+    width: 163px;
+    height: 2rem;
+    text-align: left;
+    font: Regular 29px/35px Product Sans;
+    letter-spacing: 1.45px;
+    color: #E5E5E580;
+    opacity: 0.71;
+    padding: 3px;
+}
+input.name {
+    margin: 0.6rem;
+    width: 20rem;
+    height: 6.5rem;
+    border: 2px lightgrey;
+    color: grey;
+    border-radius: 7px;
+    background: #FFFFFF26 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+input.mail_sub {
+    margin: 0.6rem;
+    width: 41.5rem;
+    height: 6.5rem;
+    border: 2px lightgrey;
+    color: grey;
+    border-radius: 7px;
+    background: #FFFFFF26 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+input.forms {
+    margin: 0.6rem;
+    width: 41.5rem;
+    height: 15rem;
+    border: 2px lightgrey;
+    color: grey;
+    border-radius: 7px;
+    background: #FFFFFF26 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+input{
+    height: 3em !important;
+    padding: 5px !important;
+}
