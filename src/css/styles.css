@@ -270,3 +270,103 @@ input{
 .home-bottom-nav > li > a{
     color: white;
 }
+.dashboard-body{
+    background: #3853A452 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.dashboard-heading{
+    letter-spacing: 0px;
+    color: #43425D;
+    font-size: 1.5em;
+    margin: 1em;
+    opacity: 1;
+}
+.dashboard-3box{
+    display:inline-flex;
+    margin: 1em;
+    /*height: 92px;*/
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 6px #0000000A;
+    opacity: 1;
+    padding:0.5em;
+}
+.dashboard-3box > i {
+    font-size: 2.2em;
+    padding-top: 0.3em;
+}
+.dashboard-2box{
+    display:inline-flex;
+    margin: 1em;
+    /*height: 92px;*/
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 6px #0000000A;
+    opacity: 1;
+    padding:0.5em;
+}
+.dashboard-ul{
+    list-style: none;
+    margin-left:0;
+    font-size:0.7em;
+}
+.user-pic{
+    position: absolute;
+    /* left: 0; */
+    font-size: 2em;
+    /*top: 2em;*/
+}
+th,td{
+    padding:0.5em;
+}
+.ul-margin{
+    padding-left:0;
+    list-style: none;
+}
+.bookmark{
+    position: absolute;
+    right: 0;
+}
+.row-line{
+    height: 1px;
+    background: #F1F1F3 0% 0% no-repeat padding-box;
+}
+.pro-plus-sign{
+    position: absolute;
+    bottom: 0;
+    /* left: auto; */
+    left: 50%;
+}
+
+/*Dashboard profile page styles*/
+.profile-name{
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    position:relative;
+}
+.profile-details{
+    margin:2em
+}
+.pro-caption{
+    position: absolute;
+    bottom: 0;
+    /* display: inline-block; */
+    /* left: 7.5vw; */
+    left: 0;
+    display: flex;
+    /* border-radius: 80%; */
+    justify-content: center;
+    width: 16vw;
+    background: black;
+}
+.dash-name{
+    font-size: 3em;
+    color: white;
+}
+.dash-industry{
+    color: #00000073;
+    font-size: 1.2em;
+}
+.dash-email{
+    color: #00B2FF;
+    font-size: 1.2em;
+}
